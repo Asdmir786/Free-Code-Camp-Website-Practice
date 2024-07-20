@@ -1,26 +1,31 @@
-body {
-  margin: 0;
-}
 nav {
-  height: 38px;
-  width: 100%;
   background-color: #0a0a23;
+  height: 38px;
   position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
   display: flex;
-}
-
-nav ul {
-  display: flex;
-  flex-direction: row;
   align-items: center;
 }
 
-nav ul li {
-  list-style: none;
+nav div form {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  background-color: #3B3B4F;
 }
 
-nav ul li div {
-    display: flex;
-    flex-direction: row;
-    /* border: 1px solid red; */
+.searchBar {
+  height: 30px;
+  width: 485px;
+}
+
+.searchBar, .SearchIcon {
+  background-color: #3B3B4F;
+  border: none;
+}
+
+.SearchIcon  {
+  height: 30px;
 }
