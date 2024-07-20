@@ -10,7 +10,6 @@ nav {
   justify-content: space-between;
 }
 
-
 nav div form {
   display: flex;
   align-items: center;
@@ -41,6 +40,10 @@ nav div form {
   font-size: 18px;
 }
 
+.SearchBarDiv {
+  margin-right: -270px;
+}
+
 .leftSide {
   display: flex;
   margin-right: 14px;
@@ -58,4 +61,31 @@ nav div form {
   padding-left: 3px;
   padding-right: 3px;
   align-items: center;
+}
+
+.Logo {
+  margin-top: 3px;
+}
+
+#MenuButton {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  font-size: 18px;
+  padding: 0px 15px;
+}
+
+
+#SignInButton {
+  padding: 0px 15px;
+  font-size: 18px;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#fecc4c),
+    to(#ffac33)
+  );
+  background-color: linear-gradient(#fecc4c, #ffac33);
+  border: 1px solid #f1a02a;
 }
