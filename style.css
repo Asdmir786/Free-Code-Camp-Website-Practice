@@ -128,3 +128,13 @@ p {
   color: #3b3b4f;
   fill: #3b3b4f;
 }
+
+.seenIn {
+  margin-top: 35px;
+  height: 290px;
+  background-color: #3B3B4F;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
