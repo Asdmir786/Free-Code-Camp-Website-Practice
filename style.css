@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 nav {
   height: 38px;
@@ -10,11 +10,17 @@ nav {
 }
 
 nav ul {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 nav ul li {
-    list-style: none;
+  list-style: none;
+}
+
+nav ul li div {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
 }
