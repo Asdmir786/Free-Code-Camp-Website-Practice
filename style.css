@@ -75,7 +75,6 @@ nav div form {
   padding: 0px 15px;
 }
 
-
 #SignInButton {
   padding: 0px 15px;
   font-size: 18px;
@@ -88,4 +87,44 @@ nav div form {
   );
   background-color: linear-gradient(#fecc4c, #ffac33);
   border: 1px solid #f1a02a;
+}
+
+.mainHeading {
+  margin-top: 150px;
+  margin-left: 27%;
+  text-align: left;
+}
+
+.mainHeading p {
+  line-height: 45px;
+  letter-spacing: 0px;
+  font-size: 45px;
+  font-family: Lato, "Open Sans";
+  font-weight: 600;
+}
+
+div,
+p {
+  font-family: Lato, "Open Sans";
+}
+
+.techCompaniesText p {
+  width: 800px;
+  margin-left: 27%;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.logos {
+  height: 50px;
+  margin: 0 440px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logos img {
+  height: 40px;
+  color: #3b3b4f;
+  fill: #3b3b4f;
 }
